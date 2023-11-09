@@ -14,7 +14,22 @@ import avatar from './avatar.png'
 * */
 
 // нужно создать правильный тип вместо any
-export type MessageType = any
+
+export type UserType = {
+    avatar: string
+    name: string
+}
+
+export type MessageTextType = {
+    text: string
+    time: string
+}
+
+export type MessageType = {
+    id: number;
+    user: UserType
+    message: MessageTextType
+}
 
 // структуру объекта не менять
 export const message0: MessageType = {
@@ -28,6 +43,7 @@ export const message0: MessageType = {
         time: '22:00', // можно менять
     },
 }
+
 export const friendMessage0: MessageType = {
     id: 100,
     user: {
