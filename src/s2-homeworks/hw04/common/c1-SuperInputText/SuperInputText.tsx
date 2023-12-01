@@ -25,7 +25,7 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
     {
         onChange,
         onChangeText,
-        onKeyPress,
+        onKeyPress, //Откуда берется?
         onEnter,
         error,
         className,
@@ -75,3 +75,28 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
 }
 
 export default SuperInputText
+
+
+
+// type StudentType = {
+//     name: string,
+//     age: number,
+//     isStudent: boolean
+// }
+
+// const student: StudentType = {
+//     name: 'aa',
+//     age: 18,
+//     isStudent: false
+// }
+
+// const people: Omit<StudentType, 'isStudent'> = {
+//     name: 'bbbb',
+//     age: 32
+// }
+
+// const people1:Pick<StudentType, 'name'> = {
+//     name: 'ccc'
+// }
+
+// const people2: Partial<StudentType> = {}
