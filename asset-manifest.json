@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/SPRINT-2-HW/static/css/main.b12b48ca.css",
-    "main.js": "/SPRINT-2-HW/static/js/main.f8aee707.js",
+    "main.css": "/SPRINT-2-HW/static/css/main.6865cde7.css",
+    "main.js": "/SPRINT-2-HW/static/js/main.1bee0ab5.js",
     "static/js/787.66cb4309.chunk.js": "/SPRINT-2-HW/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/SPRINT-2-HW/static/media/avatar.d947cb9d0d13765666b6.png",
+    "static/media/404.svg": "/SPRINT-2-HW/static/media/404.dae7af4892f2a3abe805a174178919f2.svg",
+    "static/media/closeOutline.svg": "/SPRINT-2-HW/static/media/closeOutline.91a6693133923612a0702421ab3e9923.svg",
     "static/media/checked.svg": "/SPRINT-2-HW/static/media/checked.0b6a1bcf5d417ff0a947.svg",
     "index.html": "/SPRINT-2-HW/index.html",
-    "main.b12b48ca.css.map": "/SPRINT-2-HW/static/css/main.b12b48ca.css.map",
-    "main.f8aee707.js.map": "/SPRINT-2-HW/static/js/main.f8aee707.js.map",
+    "static/media/burger.svg": "/SPRINT-2-HW/static/media/burger.e4e6b98e4ee0b2dfcd76d02a9eed2e34.svg",
+    "main.6865cde7.css.map": "/SPRINT-2-HW/static/css/main.6865cde7.css.map",
+    "main.1bee0ab5.js.map": "/SPRINT-2-HW/static/js/main.1bee0ab5.js.map",
     "787.66cb4309.chunk.js.map": "/SPRINT-2-HW/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b12b48ca.css",
-    "static/js/main.f8aee707.js"
+    "static/css/main.6865cde7.css",
+    "static/js/main.1bee0ab5.js"
   ]
 }
