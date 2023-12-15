@@ -1,4 +1,7 @@
-.input:focus {
+.inputWrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: start;
 }
 
 .input {
@@ -6,13 +9,14 @@
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #D1D1D1;
+  outline: none;
+  margin-bottom: 16px;
 }
 
-.inputWrapper {
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: start;;
-}
+/* .input:focus {
+  border: 1px solid red;
+} */
+
 
 .superInput {
 }
