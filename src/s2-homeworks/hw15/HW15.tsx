@@ -58,7 +58,6 @@ const HW15 = () => {
 
   const onChangePagination = (newPage: number, newCount: number) => {
     // делает студент
-    console.log(newPage, newCount);
     setPage(newPage);
     setCount(newCount);
     searchParams.set("page", String(newPage));
@@ -73,14 +72,13 @@ const HW15 = () => {
     setPage(1); // при сортировке сбрасывать на 1 страницу
     searchParams.set("newSort", String(newSort));
     setSearchParams(searchParams);
-    sendQuery({ page, sort: newSort, count });
+    sendQuery({ page: 1, sort: newSort, count });
   };
 
   useEffect(() => {
-    const params = Object.fromEntries(searchParams);
-    sendQuery({ page: params.page, count: params.count });
-    setPage(+params.page || 1);
-    setCount(+params.count || 4);
+    sendQuery({ page: 1, count: 4 });
+    setPage(1);
+    setCount(4);
   }, []);
 
   const mappedTechs = techs.map((t) => (
